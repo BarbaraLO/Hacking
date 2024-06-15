@@ -94,6 +94,15 @@ main {
     color: #4B0082; /* Morado */
 }
 
+.feature img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Máximo ancho */
+    max-height: 150px; /* Máxima altura */
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
 footer {
     background-color: #4B0082; /* Morado */
     color: #fff;
@@ -192,4 +201,25 @@ form button:hover {
 .about ul li {
     margin: 0.5rem 0;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.about ul li a {
+    display: flex;
+    align-items: center;
+    color: #4B0082;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.about ul li a:hover {
+    color: #40E0D0; /* Turquesa */
+}
+
+.about ul li img {
+    margin-left: 0.5rem;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
